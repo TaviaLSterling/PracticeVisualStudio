@@ -17,6 +17,7 @@ namespace GuyProject
             if (amount <= Cash && amount > 0)
             {
                 Cash -= amount;
+                return amount;
             }
             else
             {

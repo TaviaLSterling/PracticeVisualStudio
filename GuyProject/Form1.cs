@@ -25,6 +25,15 @@ namespace GuyProject
         public Form1()
         {
             InitializeComponent();
+            bob = new Guy();
+            bob.Name = "Bob";
+            bob.Cash = 100;
+
+            joe = new Guy();
+            joe.Name = "Joe";
+            joe.Cash = 50;
+
+            UpdateForm();
         }
 
         private void button1_Click(object sender, EventArgs e)
